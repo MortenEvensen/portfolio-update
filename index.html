@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <link rel="stylesheet" href="css/styles.css" type="text/css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta charset="utf-8" />
+      <title>Morten Evensen</title>
+      <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+   </head>
+   <body>
+      <!-- Overlay navigation -->
+      <div id="overlay-menu" class="overlay">
+         <a href="javascript:void(0)" class="closeButton" onclick="closeNav()">&times;</a>
+         <div class="overlay-content">
+            <a href="about.html">About me</a>
+            <a href="cv.html">CV</a>
+            <a href="contact.html">Contact</a>
+         </div>
+      </div>
+      <div class="firstpage">
+         <!-- Header/navigation -->
+         <div id="header">
+            <header>
+               <div class="logo">
+                  <h1><a href="index.html"> Morten Evensen</a></h1>
+               </div>
+               <nav>
+                  <div class="nav-elements">
+                     <a href="about.html">About me</a>
+                     <a href="cv.html">CV</a>
+                     <a href="contact.html">Contact</a>
+                  </div>
+                  <a href="javascript:void(0);" class="icon" onclick="openNav()">
+                  <i class="fa fa-bars"></i>
+                  </a>
+               </nav>
+            </header>
+         </div>
+         <!-- First content -->
+         <div id="firstcontentwrap">
+            <div class="left" id="left">
+               <h2 id="web" class="sub-header">Web development</h2>
+               <div id="web-text" class="index-text">
+                  <p class="p-text">I am a web developer that specializes in Front-End developement. </p>
+                  <p class="p-text">I am always interested in new and exiting projects, so please get in touch if you have anything interesting you want to collaborate on! </p>
+                  <p class="p-text">Click on the button bellow to see some of my earlier work </p>
+               </div>
+               <img class="coding-image image" src="images/coding-min.jpg">
+               <div id="web-button" class="web-button">
+                  <a href="web.html">
+                     <p class="index-button">Click to see some of my previous web-projects!
+                     </p>
+                  </a>
+               </div>
+            </div>
+            <div class="right" id="right">
+               <h2 id="music" class="sub-header">Music Production</h2>
+               <div id="music-text" class="index-text">
+                  <p class="p-text">I am a music producer who produces music for advertisement, artists and movies </p>
+                  <p class="p-text">I am always interested in new and exiting projects, so please get in touch if you have anything interesting you want to collaborate on! </p>
+                  <p class="p-text">Click on the button bellow to see and listen to some of my earlier work </p>
+               </div>
+               <img class="coding-image image" src="images/music-production-grey-min.jpg">
+               <div id="music-button" class="music-button">
+                  <a href="music.html">
+                     <p class="index-button">Click to see some of the projects I've worked on!
+                     </p>
+                  </a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <script src="scripts/script.js"></script>
+   </body>
+</html>

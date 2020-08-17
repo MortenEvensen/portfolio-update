@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <title>Morten Evensen - CV</title>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+</head>
+
+<body>
+       <!-- Overlay navigation -->
+    <div id="overlay-menu" class="overlay">
+        <a href="javascript:void(0)" class="closeButton" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <a href="about.html">About me</a>
+            <a href="cv.html">CV</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+    <div class="firstpage">
+        <!-- Header/navigation -->
+        <div id="header">
+            <header>
+                <div class="logo">
+                    <h1><a href="index.html"> Morten Evensen</a></h1>
+                </div>
+                <nav>
+                    <div class="nav-elements">
+                        <a href="about.html">About me</a>
+                        <a href="cv.html">CV</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
+                    <a href="javascript:void(0);" class="icon" onclick="openNav()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </nav>
+            </header>
+        </div>
+        <div class="container contact-header">
+  <form action="#">
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">First Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="First name">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">Last Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" name="lastname" placeholder="Last name">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">e-mail</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" name="lastname" placeholder="e-mail">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Subject</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Your question" style="height:200px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Submit">
+    </div>
+  </form>
+</div>
+    </div>
+     <script src="scripts/script.js"></script>
+    </body>
+</html>

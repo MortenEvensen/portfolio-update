@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <title>Morten Evensen - Web Development</title>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Overlay navigation -->
+    <div id="overlay-menu" class="overlay">
+        <a href="javascript:void(0)" class="closeButton" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <a href="about.html">About me</a>
+            <a href="cv.html">CV</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+    <div class="web-page">
+        <!-- Header/navigation -->
+        <div id="header">
+            <header>
+                <div class="logo">
+                    <h1><a href="index.html"> Morten Evensen</a></h1>
+                </div>
+                <nav>
+                    <div class="nav-elements">
+                        <a href="about.html">About me</a>
+                        <a href="cv.html">CV</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
+                    <a href="javascript:void(0);" class="icon" onclick="openNav()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </nav>
+            </header>
+        </div>
+        <div id="web-content">
+
+            <div class="web-content-wrap">
+                <div class="web-content-1">
+                    <h2>Morten Evensen - Web developer</h2>
+                    <p>I am currently studying Front-End Development at Noroff while I work as a freelance web-developer.</p>
+                    <p>My main tools for creating websites are HTML5, CSS3 and JavaScript.</p>
+                    <p>At the moment I am mostely programming using JavaScript, but I am continuously learning new skills for improving my web design and sollutions. </p>
+                    <p>My main interest is to create dynamic and responsive designs that works well across all platforms and screen sizes. </p>
+                    <p>I am always aiming for creative and sophisticated sollutions that makes the web experience fun, intuitive and interesting. </p>
+                    <p>Here are some examples of my previous work:</p>
+                    <div class="work-wrap">
+                        <div class="work1">
+                            <h3>Game of Thrones - Board Game</h3>
+                            <h4>A two-player Game of Thrones Game</h4>
+                            <a class="web-button-web" href="http://mortenevensen.no/got/" target="_blank">Go to game</a>
+                            <a class="web-button-web" href="https://github.com/MortenEvensen/GameOfThrones" target="_blank">Github repository</a>
+                            <a class="web-button-web" href="#got-a">Read more</a>
+                        </div>
+                        <div class="work2">
+                            <h3>SpaceX Microsite</h3>
+                            <h4>A dynamic microsite about SpaceX</h4>
+                            <a class="web-button-web" href="http://mortenevensen.no/spacex/" target="_blank">Go to website</a>
+                            <a class="web-button-web" href="https://github.com/MortenEvensen/spaceX" target="_blank">Github repository</a>
+                            <a class="web-button-web" href="#space-a">Read more</a>
+                        </div>
+                        <div class="work3">
+                            <h3>Portfolio</h3>
+                            <h4>The portfolio you are currently looking at</h4>
+                            <a class="web-button-web" href="http://mortenevensen.no/portfolio/">Go to front page</a>
+                            <a class="web-button-web" href="https://github.com/MortenEvensen/portfolio" target="_blank">Github repository</a>
+                            <a class="web-button-web" href="#decor-a">Read more</a>
+                        </div>
+                    </div>
+                    <div class="go-to-button-wrap-1">
+                        <a class="go-to-button" href="#got-a">Browse previous work</a></div>
+                </div>
+
+            </div>
+            <div id="got-a">
+            </div>
+            <div id="got-wrap">
+                <div class="got-flex">
+                    <h2>Game of Thrones Board Game</h2>
+
+                    <div class="got-img-wrap">
+                        <img class="got-img" src="images/got-front-min.png">
+                    </div>
+                    <div class="got-text">
+                        <p>As a part of my studies at Noroff, I developed a Game of Thrones Board game</p>
+                        <p>The game is developed using only HTML, CSS and JavaScript (vanilla).</p>
+                        <p>Creating this game was a huge breakthrough for me regarding JavaScript and Canvas</p>
+                    </div>
+                    <div class="got-img-wrap">
+                        <img class="got-img uno" src="images/got-game-min.png">
+                    </div>
+                    <div class="go-to-button-wrap">
+                        <a class="go-to-button" href="http://mortenevensen.no/got/" target="_blank">Try the game!</a></div>
+                    <div class="go-to-button-wrap-2">
+                        <a class="go-to-button" href="web.html">Back to top</a>
+                        <a class="go-to-button" href="#space-a">Next project</a></div>
+                    <!--<div class="got-text">
+                        <p>Or keep scrolling</p>
+                    </div>-->
+                </div>
+            </div>
+            <div id="space-a">
+            </div>
+            <div id="spacex-wrap">
+                <div class="got-flex">
+                    <h2>SpaceX Microsite</h2>
+
+                    <div class="got-img-wrap">
+                        <img class="space-img" src="images/spacex-cover-min.png">
+                    </div>
+                    <div class="got-text">
+                        <p>I have developed an interactive microsite containing information about SpaceX</p>
+                        <p>All the data is generated by SpaceX API's</p>
+                        <p>This project gave me great experience regarding the use of API's and simple JavaScript</p>
+                    </div>
+                    <div class="got-img-wrap">
+                        <img class="space-img uno" src="images/spacex-content-min.png">
+                    </div>
+                    <div class="go-to-button-wrap">
+                        <a class="go-to-button" href="http://mortenevensen.no/spacex/" target="_blank">Go to the site!</a></div>
+                    <div class="go-to-button-wrap-2">
+                        <a class="go-to-button" href="#got-a">Previous project</a>
+                        <a class="go-to-button" href="#decor-a">Next project</a></div>
+                </div>
+            </div>
+            <div id="decor-a">
+            </div>
+            <div id="decor-wrap">
+                <div class="got-flex">
+                    <h2>Portfolio</h2>
+
+                    <div class="got-text">
+                        <p>I have developed this portfolio web-page myself</p>
+                        <p>For this page I wanted to showcase some of my projects while I demonstrated some of web developing skills</p>
+                        <p>I've hade a lot of fun experimenting with JavaScript while creating this page.</p>
+                    </div>
+                    <div class="got-img-wrap">
+                        <img class="space-img" src="images/develop-min.png">
+                    </div>
+                    <div class="go-to-button-wrap">
+                        <a class="go-to-button" href="http://mortenevensen.no/portfolio/">Go to front page</a></div>
+                    <div class="go-to-button-wrap-2">
+                        <a class="go-to-button" href="#space-a">Previous project</a>
+                        <a class="go-to-button" href="web.html">Back to top</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
