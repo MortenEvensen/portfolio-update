@@ -501,7 +501,7 @@ header {
 -------------------*/
 
 .bg-music-image {
-	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)), url('../images/music-production-4.jpg');
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)), url('../images/music-production-4-min2.jpg');
 	height: 120vh;
 	background-position: center;
 	background-size: cover;
